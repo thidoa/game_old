@@ -1,31 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Megrim&display=swap');
+
+body {
+    font-family: 'Megrim', cursive;
+}
 .flex-container {
     display: flex;
     justify-content: center;
 }
 .flex-container div {
-    font-size: 40px;
+    font-size: 55px;
+    font-weight: initial;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 140px;
-    width: 140px;
-    
+    height: 110px;
+    width: 110px;
 }
 section {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: calc(100vh - 69px);
+    height: 100%;
 }
-.bb{
-    border-bottom: 0.15rem solid black;
+.bb {
+    border-bottom: 0.15rem solid rgb(255, 166, 0);
 }
 .br {
-    border-right: 0.15rem solid black;
+    border-right: 0.15rem solid rgb(255, 166, 0);
 }
-h2{
-    text-align: center;
+h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    font-weight: initial;
     margin-top: 40px;
-    margin-bottom: 0px;
+    margin-bottom: 35px;
+    padding-top: 30px;
+    color: rgb(255, 166, 0);
+    text-shadow: 0px 1px 0px
+    rgba(128, 128, 128, 0.445);
+}
+button {
+    font-size: 15px;
+    background-color: rgba(255, 166, 0, 0.905);
+    color: white;
+    text-shadow: 0px 2px 0px rgba(128, 128, 128, 0.794);
+    border: 0px;
+    border-radius: 5px;
+    margin-top: 35px;
+    height: 40px;
+    width: 100px;
+    box-shadow: 2px 4px 2px rgba(128, 128, 128, 0.445);
+    transition: 0.3s;
+}
+button:hover {
+    background-color: rgba(253, 164, 0, 0.735);
+    transform: scale(1.1);
 }
